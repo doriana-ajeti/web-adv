@@ -1,0 +1,51 @@
+h1{
+    color: green;
+    letter-spacing: 20px;
+    word-spacing: 10px;
+}
+p{
+    text-indent: 50px;
+    text-align: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+h2{
+    text-decoration: OVERLINE;
+    font-size: 40px;
+}
+h3{
+    text-decoration: LINE-THROUGH;
+}
+h4{
+    text-decoration: underline;
+}
+.myelement{
+    color: blue;
+}
+#normalText{
+    font-style: normal;
+    font-weight: normal;
+}
+#italicText{
+    font-style: italic;
+    font-weight: bold;
+}
+#obliqueText{
+    font-style: oblique;
+    font-weight: 900;
+}
+a{
+    color: red;
+}
+a:link{
+    color: brown;
+}
+a:visited{
+    color: aqua;
+}
+a:hover{
+    color: blueviolet;
+}
+a:active{
+    color: peru;
+}
