@@ -1,0 +1,37 @@
+ul{
+    list-style-image: url("images/maths.png");
+    padding: 0px;
+    border: 2px solid grey;
+}
+ul li{
+    padding: 8px 16px;
+    border-bottom: 1px solid grey;
+}
+ol{
+    list-style-type: lower-roman;
+    background: #eb4034;
+    padding: 15px;
+}
+ol li{
+    padding: 10px;
+    background: #eb4034;
+    margin-left: 30px;
+}
+td,th{
+    border: 1px solid black;
+    padding: 15px;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    background-color:#eb4034 ;
+}
+td{
+    background: #eb4034;
+}
+div{
+    width: 200px;
+    height: 200px;
+   background-color: #eb4034;
+    overflow: scroll;
