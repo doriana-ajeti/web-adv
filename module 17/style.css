@@ -1,0 +1,57 @@
+.root{
+    --primary-color:#505ea9;
+    --second-color:#FAB12F;
+    --third-color:#ED3F27;
+    --fourth-color:purple;
+padding: 20px;
+}
+h3{
+    font-size: large;
+    background-color: var(--primary-color);
+    color: var(--fourth-color);
+    padding: var(--padding)
+}
+p{
+    background-color: var(--fourth-color);
+    color: var(--primary-color);
+    padding: var(--padding);
+}
+span{
+    background-color: var(--third-color);
+    color: #505ea9;
+    padding: var(--padding);
+}
+
+
+
+.tooltip{
+    position: relative;
+    display: inline-block;
+    border: 1px dotted red;
+}
+.tooltip .tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: blue;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 0;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}
+body{
+    counter-reset: number;
+}
+h2::before{
+    counter-increment: number;
+    content: counter(number);
+    background-color: black;
+    border-radius: 50%;
+    padding: 12px 15px;
+    color: white;
+    margin: 10px;
+}
