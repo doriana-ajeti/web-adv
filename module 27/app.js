@@ -63,7 +63,6 @@ var school = {
 
 //alert(
 car.name
-)
 //alert(car['color']);
 
 car.startEngine();
