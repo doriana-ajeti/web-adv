@@ -25,7 +25,7 @@ for(x of names){
 var txt = "JavaScript"
 var x;
 for( x of txt){
-    dpcument.write(x + "<br>")
+    document.write(x + "<br>")
 };
 
 let j = 0;
