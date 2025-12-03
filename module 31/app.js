@@ -41,8 +41,12 @@ while(n < 3){
     console.log(y += n)
 };
 
-//1. Try to recreate a for loop to be reeated based on the length of an array
-const myArray = ["apple", "banana", "kiwi"];
-for (let i = 0; i < myArray.length; i++){
-    console.log(myArray[i]);
-}
+//1. Try to recreate a for loop to be repeated based on the length of an array
+var students = ["John", "Mark", "Ana"]
+
+for (i=0; i<students.length; i++){
+    document.write(students[i] + 'br')
+} 
+
+
+
