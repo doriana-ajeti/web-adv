@@ -43,15 +43,15 @@ document.getElementById("result8").innerHTML = regex.match(regex)
 
 var text = "My school is the best school in the world!";
 var regex = /(top|best|school)/g;
-document.getElementById("result9").innerHTML = regex.match(regex)
+document.getElementById("result9").innerHTML = regex.match(regex);
 
 var text = "100 percent";
 var regex = /\d/g;
-document.getElementById("result10").innerHTML = regex.match(regex)
+document.getElementById("result10").innerHTML = regex.match(regex);
 
 var text = "My school is the best school in the world!";
 var regex = /\s/g;
-document.getElementById("result11").innerHTML = regex.match(regex)
+document.getElementById("result11").innerHTML = regex.match(regex);
 
 var text = "Heyy, how are you??";
 var regex = /e+/g;
@@ -79,7 +79,7 @@ document.getElementById("result17").innerHTML = text.match(regex)
 
 var text = "cat, category, catalog";
 var regex = /^cat/g;
-document.getElementById("result18").innerHTML = text.match(regex) 
+document.getElementById("result18").innerHTML = text.match(regex)
 
 
 
