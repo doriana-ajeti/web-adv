@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    background-color:#F8AAB7;
+    margin:0 ;
+    line-height: 1.6;
+}
+
+header{
+    background-color:lightblue;
+    color: white;
+    display:flex ;
+    justify-content:space-between ;
+    text-align: center;
+    padding: 1.2rem 2rem;
+}
+
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.nav-links{
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    scroll-behavior: smooth;
+   flex-direction: row;
+}
+
+.nav-links a:hover{
+color:rgb(192, 228, 255);
+}
+
+.hero{
+    text-align: center;
+    padding: 1rem 4rem;
+    background-size: cover;
+    background-position: center;
+    color:white;
+   
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero p{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+section{
+   
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+section h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #aacef8;
+    border-bottom: 3 px solid #F8AAB7 ;
+    display: inline-block;
+    padding-bottom: 3px;
+}
