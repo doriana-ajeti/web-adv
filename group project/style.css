@@ -7,13 +7,13 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     color: #333;
-    background-color:#F8AAB7;
+    background-color:lightblue;
     margin:0 ;
     line-height: 1.6;
 }
 
 header{
-    background-color:lightblue;
+    background-color:#aad9f8;
     color: white;
     display:flex ;
     justify-content:space-between ;
@@ -43,12 +43,13 @@ gap: 1.5rem;
 }
 
 .nav-links a:hover{
-color:rgb(192, 228, 255);
+color:rgb(192, 208, 255);
 }
 
 .hero{
     text-align: center;
     padding: 1rem 4rem;
+    background-image:url(roses.jpg);
     background-size: cover;
     background-position: center;
     color:white;
@@ -77,8 +78,690 @@ section h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #aacef8;
-    border-bottom: 3 px solid #F8AAB7 ;
+    color: #b0aaf8;
+    border-bottom: 3 px solid #aab4f8 ;
     display: inline-block;
     padding-bottom: 3px;
 }
+.section-3{
+    background-color: rgb(192, 201, 255);
+    min-height: 800px;
+    color: white;
+}
+#contact-form{
+max-width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+.form-row{
+    display: flex;
+}
+input[type="text"], input[type="email"]{
+    width: 46%;
+    height: 56px;
+}
+input[type="text"], input[type="email"], textarea{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: #6b98e0;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    padding-left: 26px;
+    margin: 16px;
+}
+textarea{
+    height: 200px;
+    width: 100%;
+    padding-top: 24px;
+} 
+input[type="submit"]{
+    background-color: #93cff2;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 60px;
+}
+.big-button{
+    padding: 25px 85px;
+    color: white;
+}
+#about{
+    font-size: 1.2rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+
+#about p{
+    font-size: 1.2rem;
+    color: #463a7a;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #a5c2f8;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition:  background  0.3s ease;
+    background-color: rgb(192, 227, 255);
+}
+
+.btn:hover{
+    background: #52adf7 ;
+}
+
+.gallery{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #fdebd0;
+}
+
+.gallery div{
+    background-color:pink;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(216,92,122,0.15);
+    padding: 15px;
+    text-align: center;
+}
+.gallery p{
+    font-size: 1rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+#pricing table{
+    width: 65%;
+    border-collapse: collapse;
+    background: #ffe7f0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#pricing th,td{
+    padding: 15px 20px ;
+    text-align: left;
+    border: 1px solid #f7cac9;
+    font-weight: 600;
+    color: #8e4a65;
+}
+#pricing th{
+    background-color: #d85c7a;
+    color: white;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    }
+
+    .gallery img:hover{
+        transform: scale(1.05);
+    }
+    #pricing:hover{transform: scale(3s);
+
+    }
+     #pricing h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 800;
+        color: #F790A1;
+        position: relative;
+        text-align: center;
+     }
+     @media(max-width:768px){
+        #pricing{
+            padding: 70px 15px;
+        }
+        #pricing h2{
+            font-size: 2px;
+        }
+     }
+
+    table{
+        width: 80%;
+        margin: 1rem auto;
+        border-collapse:collapse;
+    }
+
+    th,td{
+        padding: 0.8rem;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        background-color: pink;
+    }
+
+    th{
+        background-color: #EE8696;
+        color:white;
+    }
+   
+    footer{
+        text-align: center;
+        padding: 1.5rem;
+        background-color: #f8a5c2;
+        color: white;
+        margin-top: 2rem;
+    }
+      #contact p{
+        font-size: 1rem;
+        margin-bottom: 12px;
+       
+      }
+      #contact a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+      #contact a:hover{
+        color: white;
+        text-decoration: underline;
+      }
+     #about{
+        background-color: pink;
+     }
+
+    @media(max-width:768px){
+        .nav-links{
+            flex-direction: column;
+            text-align: center;
+         
+        }
+
+        .gallery{
+            flex-direction: column;
+            align-items: center;
+              
+        }
+    }
+  
+    div{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    background-color:rgb(244, 181, 192);
+    line-height: 1.6;
+}
+
+header{
+    background-color:#f8a5c2 ;
+    color: white;
+    display:flex ;
+    justify-content:space-between ;
+    text-align: center;
+    padding: 1.2rem 2rem;
+}
+
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.nav-links{
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    scroll-behavior: smooth;
+   flex-direction: row;
+}
+
+.nav-links a:hover{
+color:pink;
+}
+
+.hero{
+    text-align: center;
+    padding: 1rem 4rem;
+    background-image:url(roses.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero p{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+section{
+   
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+section h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: 3 px solid #d85c7a;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+#about{
+    font-size: 1.2rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+
+#about p{
+    font-size: 1.2rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #f8a5c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition:  background  0.3s ease;
+    background-color: red;
+}
+
+.btn:hover{
+    background: #f78fb3;
+}
+
+.gallery{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+       background-color: #ffe7f0;
+}
+
+.gallery div{
+    background-color:pink;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(216,92,122,0.15);
+    padding: 15px;
+    text-align: center;
+}
+.gallery p{
+    font-size: 1rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+#pricing table{
+    width: 65%;
+    border-collapse: collapse;
+    background: #ffe7f0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#pricing th,td{
+    padding: 15px 20px ;
+    text-align: left;
+    border: 1px solid #d85c7a;
+    font-weight: 600;
+    color: #8e4a65;
+}
+#pricing th{
+    background-color: #d85c7a;
+    color: white;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    }
+
+    .gallery img:hover{
+        transform: scale(1.05);
+    }
+    #pricing:hover{transform: scale(3s);
+
+    }
+     #pricing h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 800;
+        color: #F790A1;
+        position: relative;
+        text-align: center;
+     }
+     @media(max-width:768px){
+        #pricing{
+            padding: 70px 15px;
+        }
+        #pricing h2{
+            font-size: 2px;
+        }
+     }
+
+    table{
+        width: 80%;
+        margin: 1rem auto;
+        border-collapse:collapse;
+    }
+
+    th,td{
+        padding: 0.8rem;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        background-color: rgb(240, 204, 210);
+    }
+
+    th{
+        background-color: rgb(248, 195, 204);
+        color:white;
+    }
+   
+    footer{
+        text-align: center;
+        padding: 1.5rem;
+        background-color: #f8a5c2;
+        color: white;
+        margin-top: 2rem;
+    }
+      #contact p{
+        font-size: 1rem;
+        margin-bottom: 12px;
+       
+      }
+      #contact a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+      #conact a:hover{
+        color: white;
+        text-decoration: underline;
+      }
+     #about{
+        background-color: pink;
+     }
+
+    @media(max-width:768px){
+        .nav-links{
+            flex-direction: column;
+            text-align: center;
+         
+        }
+
+        .gallery{
+            flex-direction: column;
+            align-items: center;
+              
+        }
+    }
+  
+header{
+    background-color:#f8a5c2 ;
+    color: white;
+    display:flex ;
+    justify-content:space-between ;
+    text-align: center;
+    padding: 1.2rem 2rem;
+}
+
+header h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+#pricing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.nav-links{
+list-style: none;
+display: flex;
+gap: 1.5rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    scroll-behavior: smooth;
+   flex-direction: row;
+}
+
+.nav-links a:hover{
+color:pink;
+}
+
+.hero{
+    text-align: center;
+    padding: 1rem 4rem;
+    background-image:url(roses.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+}
+
+.hero h2{
+    font-size: 3rem;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.hero p{
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+section{
+   
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+section h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #a03d5e;
+    border-bottom: 3 px solid #d85c7a;
+    display: inline-block;
+    padding-bottom: 3px;
+}
+
+#about{
+    font-size: 1.2rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+
+#about p{
+    font-size: 1.2rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    background: #f8a5c2;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition:  background  0.3s ease;
+    background-color: red;
+}
+
+.btn:hover{
+    background: #f78fb3;
+}
+
+.gallery{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+       background-color: #ffe7f0;
+}
+
+.gallery div{
+    background-color:pink;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(216,92,122,0.15);
+    padding: 15px;
+    text-align: center;
+}
+.gallery p{
+    font-size: 1rem;
+    color: #7a3a50;
+    line-height: 1.5;
+}
+#pricing table{
+    width: 65%;
+    border-collapse: collapse;
+    background: #ffe7f0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+#pricing th,td{
+    padding: 15px 20px ;
+    text-align: left;
+    border: 1px solid #d85c7a;
+    font-weight: 600;
+    color: #8e4a65;
+}
+#pricing th{
+    background-color: #d85c7a;
+    color: white;
+}
+.gallery img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    }
+
+    .gallery img:hover{
+        transform: scale(1.05);
+    }
+    #pricing:hover{transform: scale(3s);
+
+    }
+     #pricing h2{
+        font-size: 20px;
+        margin-bottom: 40px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 800;
+        color: #F790A1;
+        position: relative;
+        text-align: center;
+     }
+     @media(max-width:768px){
+        #pricing{
+            padding: 70px 15px;
+        }
+        #pricing h2{
+            font-size: 2px;
+        }
+     }
+
+    table{
+        width: 80%;
+        margin: 1rem auto;
+        border-collapse:collapse;
+    }
+
+    th,td{
+        padding: 0.8rem;
+        text-align: left;
+        border-bottom: 1px solid #ccc;
+        background-color: pink;
+    }
+
+    th{
+        background-color: #EE8696;
+        color:white;
+    }
+   
+    footer{
+        text-align: center;
+        padding: 1.5rem;
+        background-color: #f8a5c2;
+        color: white;
+        margin-top: 2rem;
+    }
+      #contact p{
+        font-size: 1rem;
+        margin-bottom: 12px;
+       
+      }
+      #contact a{
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+      #conact a:hover{
+        color: white;
+        text-decoration: underline;
+      }
+     #about{
+        background-color: pink;
+     }
+
+    @media(max-width:768px){
+        .nav-links{
+            flex-direction: column;
+            text-align: center;
+         
+        }
+
+        .gallery{
+            flex-direction: column;
+            align-items: center;
+              
+        }
+    }
+  
